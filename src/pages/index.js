@@ -31,7 +31,7 @@ const data = [
 
 const IndexPage = () => {
   // Initiate notesData from localStorage
-  const [notesData, setNotesData] = useLocalStorage('notes', data)
+  const [notesData, setNotesData] = useState(data)
 
   // Initiate state, sortBy, and sortType state
   const [alert, setAlert] = useState('')
