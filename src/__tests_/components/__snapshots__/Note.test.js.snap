@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Note renders correctly 1`] = `
+<div
+  className="note"
+>
+  <div
+    className="note-inner"
+  >
+    <textarea
+      className="note-title"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value="Title 1"
+    />
+    <textarea
+      className="note-body"
+      onBlur={[Function]}
+      onChange={[Function]}
+      value="Description 1"
+    />
+  </div>
+  <img
+    alt="Delete note"
+    className="delete-icon"
+    onClick={[Function]}
+    src="test-file-stub"
+  />
+</div>
+`;
