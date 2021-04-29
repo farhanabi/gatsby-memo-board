@@ -7,13 +7,13 @@
 1.  **Clone this repository.**
 
     ```shell
-    git clone git@github.com:farhanabi/memo-board.git
+    git clone git@github.com:farhanabi/gatsby-memo-board.git
     ```
 
 2.  **Install dependencies.**
 
     ```shell
-    cd memo-board/
+    cd gatsby-memo-board/
     npm install
     ```
 
